@@ -1,0 +1,83 @@
+@font-face {
+    font-family: diroz;
+    src: url(font/Dirooz.ttf);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.display-mood{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+
+    font-family: diroz;
+    width: 250px;
+    height: 150px;
+    background: rgb(0, 0, 0);
+    /* background: radial-gradient(circle, rgba(50,51,60,1) 0%, rgba(84,84,52,1) 52%, rgba(58,59,52,1) 100%); */
+}
+
+.p1:hover,
+.p2:hover,
+.p3:hover,
+.p4:hover,
+.p5:hover,
+.p6:hover,
+.p7:hover,
+.p8:hover,
+.p9:hover{
+    /* transform: translateY(5px);  */
+    display: none;
+}
+.p1{
+    top: 50px;
+    right: 0;  
+}
+
+
+.p2{
+    top: 71px;
+    right: 199px;
+
+}
+.p3{
+    top: 91px;
+    right: 411px;
+
+}
+.p4{
+    top: 53px;
+    right: 626px;
+
+}
+.p5{
+    top: 98px;
+    right: 836px;
+}
+.p6{
+    top: 57px;
+    right: 1028px;
+
+
+}
+.p7{
+    top: 301px;
+    right: 940px;
+
+}
+.p8{
+    top: 344px;
+    right: 670px;
+
+}
+.p9{
+    top: 406px;
+    right: 450px;
+
+}

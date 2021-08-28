@@ -1,0 +1,59 @@
+@media only screen and (max-width : 1000px){
+    .forget-pass-container h3,
+    .registery-container h3,
+    .login-container h3{
+        font-size: 3vw;
+    
+    }
+
+
+.forget-pass-container p,
+.registery-container p,
+.login-container p{
+    font-size: 2.5vw;
+}
+.forget-pass-container button,
+.registery-container button,
+.login-container button{
+    font-size: 2.5vw;
+   
+}
+#forget-pass2,
+#forget-pass{
+    font-size: 2.5vw;
+}
+}
+@media only screen and (max-width : 450px){
+  
+    .login-container{
+        width: 350px;    
+    }
+    .forget-pass-container,
+    .registery-container{
+        width: 100%;    
+
+    }
+    
+    .sec-input input{
+        width: 100px!important;
+    }
+    .question-input ,
+    .email-input input{
+        width: 200px!important;
+    
+    }
+    .text-pass{
+        margin-right: -4px;
+    }
+
+
+    .forget-pass-container button,
+    .registery-container button,
+    .login-container button{
+        width: 50%;
+        height: 40px;   
+}
+
+
+
+}
